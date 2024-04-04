@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  .box{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,85,159,1) 32%, rgba(175,237,249,1) 100%);
+  }
+  .head{
+    padding: 2rem;
+  }
+  .head >h1{
+    text-align: center;
+    font-size: 55px;
+    color: yellow;
+  }
+  .head >h5{
+    text-align: center;
+    font-size: 20px;
+    color: greenyellow;
+  }
+  .newArticle{
+    border: 3px solid rgb(3, 3, 62);
+    margin-top: 2%;
+    margin-left: 2%;
+    width:fit-content;
+    background-color: yellow;
+    padding: 1%;
+  }
+  .newArticle>a{
+    color:black;
+    font-weight: bold;
+  }
+
+  .form{
+    display: flex;
+    /* border: 5px solid yellowgreen; */
+  }
+  .sideImg{
+    width:35%;
+    margin: auto;
+  }
+  .sideImg>img{
+    width:100%;
+    height:100%;
+  }
+  .formBox{
+    width:55%;
+    margin: auto;
+  }
+  .formBox>form{
+    display: flex;
+    flex-direction: column;
+  }
+  .btnForm{
+    border: 3px solid rgb(3, 3, 62);
+    background-color: yellow;
+    padding: 1%;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .............................................................. */
+  .navbar{
+    position: absolute;
+    top:0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  /* The Table Attributes */
+  table {
+    text-align: center;
+    width: 900px;
+    margin: 20px auto;
+    font-family: sans-serif;
+    border-bottom: 5px solid #009688;
+  }
+  /* The Attributes that the Head and the Body of the Table Share */
+  th,
+  td {
+    padding: 10px;
+  }
+  /* Attributes of the Head of the Body */
+  th {
+    background-color: #404040;
+    background: linear-gradient(38deg, rgba(184,140,5,1) 48%, rgba(0,0,0,1) 49%);
+    background: linear-gradient(38deg, rgba(179,23,71,1) 48%, rgba(30,16,135,1) 49%);
+   padding: 20px 0;
+    color: white;
+  }
+  /* Attributes of Each Cell */
+  td {
+    background-color: #eee;
+  }
+  /*Attributes of Span*/
+  span {
+    padding: 5px 10px;
+    margin: 3px;
+    color: white;
+  }
+  /*Attributes */
+  .blue {
+      border: 1px solid #03a9f4;
+      background-color: #03a9f4;
+  }
+  .blue:hover{
+      border: 1px solid #03a9f4;
+      background: transparent;
+      color: #111;
+    transition: .5s ease-in-out;
+  
+  }
+  .pink {
+    background-color: #e91e63;
+    border: 1px solid #e91e63;
+  
+  
+  }
+  .pink:hover{
+    border: 1px solid #e91e63;
+    background: transparent;
+    color: #111;
+    transition: .5s ease-in-out;
+  }
